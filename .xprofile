@@ -1,6 +1,7 @@
 /usr/bin/VBoxClient-all
 
 wmname LG3D &
+feh --bg-scale /home/tauser/Pictures/street_bokeh.jpg &
 (conky -c kinki| while read LINE; do xsetroot -name "$LINE"; done) &
 exec ck-launch-session dbus-launch dwm
 
