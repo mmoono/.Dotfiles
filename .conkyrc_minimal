@@ -1,0 +1,16 @@
+own_window no
+own_window_transparent yes
+own_window_type panel
+alignment bottom_right
+gap_x 8
+gap_y 10
+draw_shades yes
+out_to_console no
+out_to_x yes
+background no
+update_interval 2
+total_run_times 0
+use_spacer none
+
+TEXT
+$mpd_smart :: ${cpu cpu1}% / ${cpu cpu2}% :: $memperc% ($mem/$memmax) :: ${downspeed eth0}K/s ${upspeed eth0}K/s :: ${time %a %b %d %I:%M%P}
